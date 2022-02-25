@@ -105,8 +105,7 @@ p {
   width: 80%;
   text-align: center;
 }
-.team-list {
-  grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+.team-container .team-list {
 }
 .team-member {
   flex-direction: column;
