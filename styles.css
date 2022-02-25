@@ -1,0 +1,57 @@
+/* ----- Generic Properties ----- */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #6b6b6b;
+}
+a {
+  text-decoration: none;
+}
+p,
+a,
+svg,
+li {
+  color: #999;
+}
+
+/* ----- CSS Style Class ----- */
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.selected {
+  color: #333;
+}
+/* ----- Navbar Elements ----- */
+.nav {
+  justify-content: space-between;
+}
+.nav-left,
+.nav-right {
+  align-items: center;
+}
+.nav-left {
+  gap: 10px;
+}
+.nav-left svg {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #333;
+  fill: #fff;
+}
+.nav-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}

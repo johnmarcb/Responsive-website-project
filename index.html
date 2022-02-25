@@ -5,148 +5,164 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Responsive Website Project</title>
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <div class="nav-left">
+    <div class="page-container">
+      <header>
+        <nav class="nav flex">
+          <div class="nav-left flex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M448 64.01v384c0 17.67-14.31 32-32 32s-32-14.33-32-32V169.7l-133.4 200.1c-11.88 17.81-41.38 17.81-53.25 0L64 169.7v278.3c0 17.67-14.31 32-32 32s-32-14.33-32-32v-384c0-14.09 9.219-26.55 22.72-30.63c13.47-4.156 28.09 1.141 35.91 12.88L224 294.3l165.4-248.1c7.812-11.73 22.47-17.03 35.91-12.88C438.8 37.47 448 49.92 448 64.01z"
+              />
+            </svg>
+            <p>Minimalista</p>
+          </div>
+          <div class="nav-right flex">
+            <ul class="flex">
+              <li>Home</li>
+              <li class="selected">About Us</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="intro">
+        <h1>About Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, a quam
+          non minima dolorem. Porro temporibus vel delectus laborum blanditiis quasi
+          reiciendis, laudantium corporis totam sequi, quibusdam veritatis odio.
+        </p>
+      </section>
+      <section class="room-container">
+        <div class="room">
           <img src="" alt="" />
+          <h3>Room 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus
+            similique iusto dolorem laborum ab explicabo, provident quidem dicta omnis
+            quod commodi recusandae aspernatur unde libero veritatis placeat aliquid
+            eveniet!
+          </p>
         </div>
-        <div class="nav-right">
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact</li>
-          </ul>
+        <div class="room">
+          <img src="" alt="" />
+          <h3>Room 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus
+            similique iusto dolorem laborum ab explicabo, provident quidem dicta omnis
+            quod commodi recusandae aspernatur unde libero veritatis placeat aliquid
+            eveniet!
+          </p>
         </div>
-      </nav>
-    </header>
-    <section class="intro">
-      <h1>About Us</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, a quam non
-        minima dolorem. Porro temporibus vel delectus laborum blanditiis quasi reiciendis,
-        laudantium corporis totam sequi, quibusdam veritatis odio.
-      </p>
-    </section>
-    <section class="room-container">
-      <div class="room">
-        <img src="" alt="" />
-        <h3>Room 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus
-          similique iusto dolorem laborum ab explicabo, provident quidem dicta omnis quod
-          commodi recusandae aspernatur unde libero veritatis placeat aliquid eveniet!
-        </p>
-      </div>
-      <div class="room">
-        <img src="" alt="" />
-        <h3>Room 2</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus
-          similique iusto dolorem laborum ab explicabo, provident quidem dicta omnis quod
-          commodi recusandae aspernatur unde libero veritatis placeat aliquid eveniet!
-        </p>
-      </div>
-      <div class="room">
-        <img src="" alt="" />
-        <h3>Room 3</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus
-          similique iusto dolorem laborum ab explicabo, provident quidem dicta omnis quod
-          commodi recusandae aspernatur unde libero veritatis placeat aliquid eveniet!
-        </p>
-      </div>
-    </section>
-    <section class="team-container">
-      <div class="ourteam">
-        <h2>- Our Team -</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae, optio
-          ipsa voluptates animi delectus, sit consequuntur
-        </p>
-      </div>
-      <div class="team-member">
-        <img src="" alt="" />
-        <h4></h4>
-        <h4></h4>
-        <div class="socials">
-          <a href="">insert svg</a>
-          <a href="">insert svg</a>
+        <div class="room">
+          <img src="" alt="" />
+          <h3>Room 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus
+            similique iusto dolorem laborum ab explicabo, provident quidem dicta omnis
+            quod commodi recusandae aspernatur unde libero veritatis placeat aliquid
+            eveniet!
+          </p>
         </div>
-      </div>
-      <div class="team-member">
-        <img src="" alt="" />
-        <h4></h4>
-        <h4></h4>
-        <div class="socials">
-          <a href="">insert svg</a>
-          <a href="">insert svg</a>
+      </section>
+      <section class="team-container">
+        <div class="ourteam">
+          <h2>- Our Team -</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae, optio
+            ipsa voluptates animi delectus, sit consequuntur
+          </p>
         </div>
-      </div>
-      <div class="team-member">
-        <img src="" alt="" />
-        <h4></h4>
-        <h4></h4>
-        <div class="socials">
-          <a href="">insert svg</a>
-          <a href="">insert svg</a>
+        <div class="team-member">
+          <img src="" alt="" />
+          <h4></h4>
+          <h4></h4>
+          <div class="socials">
+            <a href="">insert svg</a>
+            <a href="">insert svg</a>
+          </div>
         </div>
-      </div>
-      <div class="team-member">
-        <img src="" alt="" />
-        <h4></h4>
-        <h4></h4>
-        <div class="socials">
-          <a href="">insert svg</a>
-          <a href="">insert svg</a>
+        <div class="team-member">
+          <img src="" alt="" />
+          <h4></h4>
+          <h4></h4>
+          <div class="socials">
+            <a href="">insert svg</a>
+            <a href="">insert svg</a>
+          </div>
         </div>
-      </div>
-    </section>
-    <footer class="footer-container">
-      <div class="footer-social-container">
-        <div class="footer-social">
-          <a href="">svg insert</a>
-          <p>Social Media Type</p>
+        <div class="team-member">
+          <img src="" alt="" />
+          <h4></h4>
+          <h4></h4>
+          <div class="socials">
+            <a href="">insert svg</a>
+            <a href="">insert svg</a>
+          </div>
         </div>
-        <div class="footer-social">
-          <a href="">svg insert</a>
-          <p>Social Media Type</p>
+        <div class="team-member">
+          <img src="" alt="" />
+          <h4></h4>
+          <h4></h4>
+          <div class="socials">
+            <a href="">insert svg</a>
+            <a href="">insert svg</a>
+          </div>
         </div>
-        <div class="footer-social">
-          <a href="">svg insert</a>
-          <p>Social Media Type</p>
+      </section>
+      <footer class="footer-container">
+        <div class="footer-social-container">
+          <div class="footer-social">
+            <a href="">svg insert</a>
+            <p>Social Media Type</p>
+          </div>
+          <div class="footer-social">
+            <a href="">svg insert</a>
+            <p>Social Media Type</p>
+          </div>
+          <div class="footer-social">
+            <a href="">svg insert</a>
+            <p>Social Media Type</p>
+          </div>
+          <div class="footer-social">
+            <a href="">svg insert</a>
+            <p>Social Media Type</p>
+          </div>
         </div>
-        <div class="footer-social">
-          <a href="">svg insert</a>
-          <p>Social Media Type</p>
+        <div class="contact-info-container">
+          <div class="contact-info">
+            <h4>Company Address</h4>
+            <p>Responsive Street 7</p>
+            <p>London - United Kingdom</p>
+            <p>Europe</p>
+          </div>
+          <div class="contact-info">
+            <h4>Company Address</h4>
+            <p>Responsive Street 7</p>
+            <p>London - United Kingdom</p>
+            <p>Europe</p>
+          </div>
+          <div class="contact-info">
+            <h4>Company Address</h4>
+            <p>Responsive Street 7</p>
+            <p>London - United Kingdom</p>
+            <p>Europe</p>
+          </div>
         </div>
-      </div>
-      <div class="contact-info-container">
-        <div class="contact-info">
-          <h4>Company Address</h4>
-          <p>Responsive Street 7</p>
-          <p>London - United Kingdom</p>
-          <p>Europe</p>
+        <div class="copyright">
+          <p>Copyright - Your Domain Name</p>
+          <p>Design and coding by John Balasta</p>
         </div>
-        <div class="contact-info">
-          <h4>Company Address</h4>
-          <p>Responsive Street 7</p>
-          <p>London - United Kingdom</p>
-          <p>Europe</p>
-        </div>
-        <div class="contact-info">
-          <h4>Company Address</h4>
-          <p>Responsive Street 7</p>
-          <p>London - United Kingdom</p>
-          <p>Europe</p>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>Copyright - Your Domain Name</p>
-        <p>Design and coding by John Balasta</p>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
