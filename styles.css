@@ -141,7 +141,6 @@ svg {
   border: solid;
 }
 .footer-social-container {
-  align-items: flex-start;
   justify-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(10px, 100px));
@@ -169,7 +168,6 @@ svg {
 }
 .contact-info-container .contact-info {
   margin: 0;
-  border: solid;
 }
 .contact-info p,
 .contact-info h4 {
@@ -184,5 +182,5 @@ svg {
 }
 .copyright p {
   margin: 0;
-  padding: 5px;
+  font-size: 12px;
 }
