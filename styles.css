@@ -15,12 +15,15 @@ a {
 }
 p,
 a,
-svg,
 li {
   color: #999;
 }
 p {
   line-height: 1.5rem;
+}
+svg {
+  padding: 5px;
+  border-radius: 50%;
 }
 .page-container {
   display: flex;
@@ -54,8 +57,6 @@ p {
 .nav-left svg {
   width: 24px;
   height: 24px;
-  padding: 5px;
-  border-radius: 50%;
   background-color: #333;
   fill: #fff;
 }
@@ -96,20 +97,21 @@ p {
 }
 
 /* ----- Team ----- */
-.team-container {
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-}
 .ourteam {
-  width: 80%;
   text-align: center;
 }
-.team-container .team-list {
+.ourteam h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.team-list {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: center;
 }
 .team-member {
+  margin: 10px;
   flex-direction: column;
-  gap: 7px;
+  display: block;
 }
 .team-member img {
   width: 125px;
@@ -121,6 +123,7 @@ p {
   line-height: 1rem;
 }
 .team-member .socials {
+  margin: 10px 0;
   gap: 5px;
 }
 .team-member .socials svg {
@@ -130,4 +133,56 @@ p {
   height: 14px;
   padding: 2px;
   border-radius: 50%;
+}
+/* ----- Footer ----- */
+.footer-container {
+  background-color: #282828;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: solid;
+}
+.footer-social-container {
+  align-items: flex-start;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 100px));
+}
+.footer-social {
+  margin: 10px;
+  align-items: center;
+  gap: 5px;
+}
+.footer-social p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer-social svg {
+  width: 10px;
+  height: 10px;
+  background-color: #6b6b6b;
+  fill: #282828;
+  border-radius: 50%;
+}
+.contact-info-container {
+  border: solid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+}
+.contact-info-container .contact-info {
+  margin: 0;
+  border: solid;
+}
+.contact-info p,
+.contact-info h4 {
+  margin: 0;
+  padding: 4px;
+}
+.copyright {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  text-align: center;
+}
+.copyright p {
+  margin: 0;
+  padding: 5px;
 }
