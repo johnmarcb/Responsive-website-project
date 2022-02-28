@@ -192,3 +192,23 @@ svg {
   margin: 0;
   font-size: 0.8rem;
 }
+
+@media (min-width:320px) and (max-width: 480px)
+{
+.nav{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nav-right{
+  margin-top: 1em;
+}
+.team-container,.ourteam p, .team-list{
+  padding: 0;
+}
+}
+
+@media (min-width:481px) and (max-width: 768px){
+  
+}
+@media (min-width:320px) and (max-width: 480px)
