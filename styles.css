@@ -192,23 +192,49 @@ svg {
   margin: 0;
   font-size: 0.8rem;
 }
+/* ----- Media Queries ----- */
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .nav-right {
+    margin-top: 1em;
+  }
+  .room-container {
+    grid-template-columns: none;
+  }
+  .team-container,
+  .ourteam p,
+  .team-list {
+    padding: 0;
+  }
+  .footer-social-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
-@media (min-width:320px) and (max-width: 480px)
-{
-.nav{
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav-right ul {
+    gap: 2.5em;
+  }
+  .ourteam p,
+  .team-list {
+    padding: 1em;
+  }
+  .footer-social-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-.nav-right{
-  margin-top: 1em;
+@media (min-width: 1500px) {
+  .page-container {
+    padding: 0 10rem;
+  }
+  .room img {
+    height: 25em;
+  }
+  .team-list {
+    padding: 0 15em;
+  }
 }
-.team-container,.ourteam p, .team-list{
-  padding: 0;
-}
-}
-
-@media (min-width:481px) and (max-width: 768px){
-  
-}
-@media (min-width:320px) and (max-width: 480px)
